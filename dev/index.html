@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+	<title>{{title}}</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="author" content="{{author}}">
+	<meta name="robots" content="index, follow">
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="{{domain}}">
+	<meta name="title" property="og:title" content="{{title}}">
+	<meta name="description" property="og:description" content="{{description}}">
+	<meta name="keywords" property="og:keywords" content="keywords">
+	<meta property="og:url" content="https://{{domain}}/index.html">
+	<meta property="og:image" content="https://{{domain}}/img/portretMaly.webp">
+	<meta property="og:image:alt" content="{{altPortret}}">
+	<link rel="stylesheet" href="w3.css">
+	<link rel="stylesheet" href="styles.css?v={{VERSION}}">
+	<script src="scripts.js?v={{VERSION}}"></script>
+	<link rel="apple-touch-icon" sizes="180x180" href="./img/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="./img/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="./img/icons/favicon-16x16.png">
+	<link rel="manifest" href="./img/icons/site.webmanifest">
+	<link rel="canonical" href="https://{{domain}}/" />
+</head>
+
+<body>
+	<div class="w3-overlay w3-hide-large w3-animate-opacity menuCloser" title="Zavři menu" id="myOverlay"></div>
+	<div class="w3-top">
+		<div class="w3-bar w3-card flex" id="myNavbar">
+			<div>
+				<a href="#home">
+					<img class="logo" alt="logo" src="img/logo.webp">
+				</a>
+			</div>
+
+			<div class="flex-center">
+				<a href="tel:{{fullPhone}}" class="w3-large w3-hide-small">
+					<span class="fa fa-phone"></span> {{phone}}
+				</a>
+				<a href="mailto:{{email}}" class="w3-large w3-hide-small w3-hide-medium">
+					<span class="fa fa-envelope"></span> {{email}}
+				</a>
+			</div>
+
+			<div class="w3-hide-small w3-hide-medium">
+				<a href="#work" class="w3-bar-item w3-large w3-button">
+					<span class="fa fa-life-ring"></span> SLUŽBY
+				</a>
+				<a href="#about" class="w3-bar-item w3-large w3-button">
+					<span class="fa fa-male"></span> O MNĚ
+				</a>
+				<a href="#contact" class="w3-bar-item w3-large w3-button">
+					<span class="fa fa-address-card-o"></span> KONTAKT
+				</a>
+			</div>
+
+			<div class="w3-flex-right w3-hide-large">
+				<span class="menuOpener w3-bar-item w3-button w3-xlarge">
+					<span class="fa fa-bars"></span>
+				</span>
+			</div>
+		</div>
+	</div>
+
+	<nav class="menuCloser w3-sidebar w3-bar-block w3-card w3-animate-left w3-hide-large" id="mySidebar">
+		<span class="w3-bar-item w3-button w3-xlarge w3-padding-16"><span class="fa fa-close w3-right"></span></span>
+		<a href="#work" class="w3-bar-item w3-button">SLUŽBY</a>
+		<a href="#about" class="w3-bar-item w3-button">O MNĚ</a>
+		<a href="#contact" class="w3-bar-item w3-button">KONTAKT</a>
+	</nav>
+	<header class="w3-display-container w3-animate-top" id="home">
+		<div class="bigTitle w3-display-left">
+			<h1>Bc. Zdeněk Drexler</h1>
+			<h2>Specialista na ovlivňování a vyjednávání</h2>
+			<p>
+				<a href="#contact" class="w3-button w3-padding-large w3-large w3-margin-top w3-hide-small w3-hide-medium button">Zeptejte se</a>
+			</p>
+		</div>
+		<div class="w3-display-bottomleft w3-xxxlarge contactButtons">
+			<a href="tel:{{fullPhone}}"><span class="fa fa-phone"></span></a>
+			<a href="{{facebook}}"><span class="fa fa-facebook"></span></a>
+			<a href="{{instagram}}"><span class="fa fa-instagram"></span></a>
+			<a href="{{linkedin}}"><span class="fa fa-linkedin"></span></a>
+			<a href="mailto:{{email}}"><span class="fa fa-envelope"></span></a>
+		</div>
+	</header>
+	<section class="w3-container">
+		<h3 class="w3-center"><span class="fa fa-rocket"></span> VÍTEJTE!</h3>
+		<p>
+			<strong>Cílené vyjednávání pro váš úspěch</strong>
+			Vítejte na webu, kde vás naučím ovládat umění vyjednávání a ovlivňování. Jsem Zdeněk Drexler, specialista na komunikaci a vyjednávání s
+			více než 20 lety zkušeností. Pomůžu vám získat sebevědomí, jistotu a nástroje k tomu, abyste dosáhli svých cílů – ať už v byznysu nebo v
+			osobním životě.
+		</p>
+		<p>
+			<br>👉 Chcete umět řídit vyjednávání jako profesionál?
+			<br>👉 Potřebujete překonat obavy z konfliktů a zvládat složité situace s přehledem?
+			<br>👉 Toužíte uzavírat dohody, které přinášejí skutečnou hodnotu?
+		</p>
+		<p>
+			Se mnou se naučíte, jak proměnit každé vyjednávání v příležitost k úspěchu.
+		</p>
+	</section>
+	<section class="w3-container" id="work">
+		<h3 class="w3-center"><span class="fa fa-life-ring"></span> SLUŽBY</h3>
+		<p class="w3-center w3-xlarge"><strong>Motto:</strong>Cílem vyřešení konfliktu není vítězství nebo porážka.
+			Je to dosažení porozumění a opuštění naší potřeby mít pravdu.</p>
+		<div class="container w3-padding-24 w3-row-padding">
+
+			<div class="intern w3-card">
+				<h4><span class="fa fa-handshake-o"></span> Workshopy</h4>
+				<p>
+					<strong>Cílený vyjednavač: Naučte se řídit vyjednávání jako profesionál </strong>
+					Tento jedinečný workshop vás provede všemi kroky úspěšného vyjednávání.
+					Postavíme spolu čtyři klíčové pilíře: příprava, vstup do vyjednávání, řízení procesu a zvládání eskalací.
+				</p>
+				<p>
+					<strong>Co se naučíte:</strong>
+					<br>✅ Jak se připravit na každé vyjednávání a být o krok napřed
+					<br>✅ Jak budovat vztah a důvěru s protistranou
+					<br>✅ Jak zvládat emoce, eskalace a stresové situace
+					<br>✅ Jak uzavírat dohody s maximální přidanou hodnotou
+				</p>
+				<p>
+					<strong>👥 Pro koho je workshop určen?</strong>
+					Manažeři, podnikatelé, obchodníci, personalisté i jednotlivci, kteří chtějí zlepšit své vyjednávací a komunikační dovednosti.
+				</p>
+				<p>
+					📅 Rezervujte si místo nyní a získejte nástroje, které vám otevřou nové příležitosti! <br>
+					Chcete-li workshop pro vás, ve vašich prostorách, napište mi.
+				</p>
+				<div class="centerAndEnd">
+					<a href="https://sebacademy.cz/workshop-komunikacnich-a-vyjednavacich-dovednosti/" target="_blank">
+						<button class="w3-button button"><span class="fa fa-plus"></span> Více </button>
+					</a>
+				</div>
+			</div>
+
+			<div class="intern w3-card">
+				<h4><span class="fa fa-handshake-o"></span> Konzultace a trénink pro firmy</h4>
+				<p>
+					<strong>Zvyšte výkon svého týmu pomocí efektivní komunikace a vyjednávání</strong> <br>
+				</p>
+				<p>
+					Konzultace a tréninky pro firmy jsou navrženy tak, aby posílily schopnosti vašeho týmu, zlepšily výsledky a zajistily dlouhodobou úspěšnost
+					vašeho podnikání. Pomohu vám nastavit strategii vyjednávání, která odpovídá vašim obchodním cílům, a poskytnu praktické nástroje, které váš
+					tým okamžitě využije v praxi.
+				</p>
+				<p>
+					<strong>Co trénink pro firmy obsahuje:</strong>
+					<br>✅ Identifikace slabých míst – Analyzuji aktuální stav komunikace a vyjednávacích schopností vašeho týmu.
+					<br>✅ Trénink strategického ovlivňování – Naučím váš tým, jak efektivně oslovit klienty, dodavatele nebo partnery a získat si jejich důvěru.
+					<br>✅ Řešení reálných scénářů – Budeme pracovat na konkrétních situacích, se kterými se váš tým potýká, a hledat optimální řešení.
+					<br>✅ Motivace a týmová spolupráce – Zaměřím se na posílení vztahů uvnitř týmu, což povede k lepší koordinaci a vyšší produktivitě.
+					<br>✅ Měřitelné výsledky – Nastavíme jasné cíle a vytvoříme plán kroků, které povedou k viditelnému zlepšení.
+				</p>
+				<p>
+					<strong>👥 P ro koho je trénink určen?</strong> <br>
+					Pro malé i velké firmy, které chtějí zlepšit komunikaci, zvýšit efektivitu týmu a posílit vyjednávací pozici na trhu. Ať už se jedná o obchodní oddělení, management nebo interní komunikaci, tento trénink je přizpůsoben na míru vašim potřebám.
+				</p>
+				<p>
+					📅 Kontaktujte mě pro vytvoření individuálního plánu tréninku a posuňte svůj tým na novou úroveň!
+				</p>
+				<div class="centerAndEnd">
+					<button class="w3-button button moreButton"><span class="fa fa-plus"></span> Více
+						<span class="hiddenContent">
+							<h4 class="w3-xxlarge"><span class="fa fa-credit-card"></span> Ceník konzultací a tréninků pro firmy</h4>
+							<div class="container w3-padding-24 w3-row-padding">
+								<div class="intern w3-card">
+									<strong class="w3-xxlarge">Půldenní tréning</strong><br>
+									<strong class="w3-xxxlarge">34.999.- Kč</strong><br>
+									<span class="w3-large w3-light-gray">Nejsem plátce DPH</span><br>
+									<p>
+										Pro týmy, které se chtějí naučit základy, popř. se zdokonalit v ovlivňovacích, vyjednáváních a komunikačních dovednostech
+									</p>
+									<div class="centerAndEnd">
+										<a href="#contact" class="w3-button w3-padding-large w3-large w3-margin-top button">Objednejte</a>
+									</div>
+								</div>
+								<div class="intern w3-card">
+									<strong class="w3-xxlarge">Jednodenní tréning</strong><br>
+									<strong class="w3-xxxlarge">49.999.- Kč</strong><br>
+									<span class="w3-large w3-light-gray">Nejsem plátce DPH</span><br>
+									<p>
+										Efektivní, ucelený koncept ovlivňování a vyjednávání pro váš tým. Během tohoto dne extrémně zlepšíte vaše rozpoznávací schopnosti,
+										dokážete ovlivnit protistranu a vyjednat si ty nejlepší podmínky.
+									</p>
+									<div class="centerAndEnd">
+										<a href="#contact" class="w3-button w3-padding-large w3-large w3-margin-top button">Objednejte</a>
+									</div>
+								</div>
+								<div class="intern w3-card">
+									<strong class="w3-xxlarge">Dvoudenní tréning</strong><br>
+									<strong class="w3-xxxlarge">69.999.- Kč</strong><br>
+									<span class="w3-large w3-light-gray">Nejsem plátce DPH</span><br>
+									<p>
+										Extrémní tréninková nálož. Během dvou dnů budete trénovat, jak kontrolovat emoce svoje, druhé strany,
+										jak ovlivnit jejich mozek a vyjednat skvělou dohodu. Nejnáročnější tréninková baterie, po které budete patřit mezi špičku ve vyjednávání.
+									</p>
+									<div class="centerAndEnd">
+										<a href="#contact" class="w3-button w3-padding-large w3-large w3-margin-top button">Objednejte</a>
+									</div>
+								</div>
+							</div>
+						</span>
+					</button>
+				</div>
+			</div>
+
+			<div class="intern w3-card">
+				<h4><span class="fa fa-handshake-o"></span> Individuální mentoring</h4>
+				<p>
+					<strong>Personalizovaný přístup k vašemu mistrovství ve vyjednávání</strong>
+					Individuální mentoring je nejrychlejší a nejefektivnější cesta, jak zdokonalit své dovednosti v ovlivňování a vyjednávání. V tomto programu se zaměřím na vaše specifické potřeby, situace a cíle, abych vám pomohl dosáhnout maximálního potenciálu.
+				</p>
+				<p>
+					<strong>Co vám individuální mentoring přinese:</strong>
+					<br>✅ Efektivní příprava na vyjednávání – Naučíte se, jak analyzovat situaci, identifikovat klíčové potřeby protistrany a stanovit si jasné cíle.
+					<br>✅ Sebejistota v komunikaci – Pomohu vám odstranit strach z konfliktu a posílím vaše sebevědomí při náročných jednáních.
+					<br>✅ Strategické myšlení – Naučím vás, jak vytvářet taktické plány a předvídat kroky protistrany.
+					<br>✅ Okamžitá aplikace dovedností – Budeme pracovat na konkrétních situacích, které řešíte, a hledat nejefektivnější řešení.
+				</p>
+				<p>
+					<strong>👤 Pro koho je mentoring vhodný?</strong>
+					<br>Pro manažery, lídry, podnikatele, obchodníky nebo jednotlivce, kteří chtějí posunout své vyjednávací schopnosti na profesionální úroveň. Ať už řešíte obchodní dohody, konflikty v týmu nebo důležité životní situace, individuální mentoring vám poskytne praktické nástroje a jistotu.
+				</p>
+				<p>
+					📅 Rezervujte si individuální konzultaci ještě dnes a objevte sílu cíleného vyjednávání!
+				</p>
+				<div class="centerAndEnd">
+					<button class="w3-button button moreButton"><span class="fa fa-plus"></span> Více
+						<span class="hiddenContent">
+							<h4 class="w3-xxlarge"><span class="fa fa-credit-card"></span> Ceník individuálního mentoringu</h4>
+							<div class="container w3-padding-24 w3-row-padding">
+								<div class="intern w3-card">
+									<strong class="w3-xxlarge">Jednorázový mentoring</strong><br>
+									<strong class="w3-xxxlarge">8.999.- Kč</strong><br>
+									<span class="w3-large w3-light-gray">Nejsem plátce DPH</span><br>
+									<span class="w3-xlarge">jednorázově 45 min + 15 min dotazy</span><br><br>
+									<p>
+										Chcete jednorázový mentoring, díky kterému se naučíte několik základních technik, které budete moci
+										okamžitě použít? Všechny použité techniky, taktiky a strategie budou na míru pro vás a vaši aktuální situaci.
+									</p>
+									<div class="centerAndEnd">
+										<a href="#contact" class="w3-button w3-padding-large w3-large w3-margin-top button">Objednejte</a>
+									</div>
+								</div>
+
+								<div class="intern w3-card">
+									<strong class="w3-xxlarge">Měsíční mentoring</strong><br>
+									<strong class="w3-xxxlarge">34.999.- Kč</strong><br>
+									<span class="w3-large w3-light-gray">Nejsem plátce DPH</span><br>
+									<span class="w3-xlarge">5 setkání za měsíc cca 75 minut</span><br><br>
+									<p>
+										Nejefektivnější forma studia pro vás. Předám vám 17+ let praxe z mých vyjednávání s politiky, obchodníky i CEO firem s mezinárodním přesahem a teorii získanou od světových vyjednavačů z USA
+									</p>
+									<div class="centerAndEnd">
+										<a href="#contact" class="w3-button w3-padding-large w3-large w3-margin-top button">Objednejte</a>
+									</div>
+								</div>
+
+
+								<div class="intern w3-card">
+									<strong class="w3-xxlarge">Blesková konzultace</strong><br>
+									<strong class="w3-xxxlarge">11.999.- Kč</strong><br>
+									<span class="w3-large w3-light-gray">Nejsem plátce DPH</span><br>
+									<span class="w3-xlarge">jednorázově do 60 minut</span><br><br>
+									<p>
+										Potřebujete poradit, konzultovat a uřídit náhle vzniklou situaci? Jsem připraven na rychlou první pomoc, uhašení požáru a nastavení základních kroků,
+										díky kterým zatáhneme za záchrannou brzdu.
+									</p>
+									<p>
+										Zpětná vazba exkluzivně daný den
+									</p>
+									<div class="centerAndEnd">
+										<a href="#contact" class="w3-button w3-padding-large w3-large w3-margin-top button">Objednejte</a>
+									</div>
+								</div>
+							</div>
+
+						</span>
+					</button>
+				</div>
+			</div>
+
+		</div>
+
+	</section>
+	<section class="w3-container" id="about">
+		<h3 class="w3-center"><span class="fa fa-male"></span> O MNĚ</h3>
+		<p class="w3-center w3-xlarge"><strong>Motto:</strong> Cílené vyjednávání <span class="fa 	fa fa-long-arrow-right"></span> Klíč k porozumění, ovlivnění a dokonalé dohodě.</p>
+
+		<div class="container">
+			<div class="intern">
+				<strong>Zdeněk Drexler – váš průvodce světem vyjednávání a ovlivňování</strong>
+				<p>
+					Jsem specialista na cílené vyjednávání, který kombinuje hluboké znalosti s praktickými zkušenostmi z obchodu, diplomacie a
+					krizových situací. Během své kariéry jsem vedl vyjednávání s politiky, obchodními partnery i generály, a to na lokální i mezinárodní úrovni.
+				</p>
+				<strong>Co mě odlišuje? </strong>
+
+				<p>
+					✔ 20+ let zkušeností v komunikaci a vyjednávání
+					✔ Tréninky v globálních firmách s miliardovými obraty i pro individuální klienty
+					✔ Absolvovaný trénink u zakladatele Jednotky krizového vyjednávání FBI Garyho Noesnera
+					✔ Schopnost naučit vás praktické techniky, které můžete okamžitě využít
+				</p>
+				<strong>Moje vášeň? Učit lidi, jak ovládnout své komunikační schopnosti, překonat strach z konfliktu a stát se sebevědomými vyjednavači.</strong>
+
+				<p>💡 Společně proměníme váš přístup k vyjednávání a posuneme vaše schopnosti na novou úroveň.</p>
+			</div>
+			<div class="intern gallery">
+				<img src="img/prednasim.webp" alt="Zdeněk Drexler - přednáší" class="w3-image w3-hover-opacity w3-round ">
+			</div>
+		</div>
+		<div class="w3-padding-48 w3-center container">
+			<div class="intern w3-card">
+				<span class="fa fa-arrows-alt w3-margin-bottom w3-jumbo w3-center"></span>
+				<p class="header">MISE</p>
+				<p>
+					Mým posláním je učit lidi, jak ovlivňovat, vyjednávat a komunikovat s jasným cílem. Ukazuji jim, jak budovat vztahy,
+					odhalovat motivy protistrany a dosahovat dohod, které přinášejí maximální přidanou hodnotu pro obě strany. Věřím, že každý
+					může ovládnout umění vyjednávání a proměnit ho v silnou stránku ve svém profesním i osobním životě.
+				</p>
+			</div>
+			<div class="intern w3-card">
+				<span class="fa fa-diamond  w3-margin-bottom w3-jumbo"></span>
+				<p class="header">VIZE</p>
+				<p>
+					Dovést lidi na celoživotní cestu, kde je ovlivňování, vyjednávání a efektivní komunikace přirozenou součástí každodenního života.
+					Přeji si změnit vnímání vyjednávání z boje na proces porozumění a spolupráce, kde získávají obě strany.
+					Základním kamenem mé vize je boj proti dezinformacím a mýtům, které podkopávají důvěru a schopnost komunikovat.
+					Mým cílem je šířit osvětu a ukázat, že skrze správně zvolená slova můžeme nejen dosáhnout svých cílů,
+					ale také vytvářet pevné a dlouhodobé vztahy.
+				</p>
+			</div>
+		</div>
+
+		<div>
+			<h4 class="w3-center w3-padding-32"> <span class="fa fa-briefcase"></span> ZKUŠENOSTI</h4>
+			<div class="w3-row">
+				<div class="w3-half">
+					<ul class="w3-ul">
+						<li>
+							👉 <strong>Policejní akademie ČR v Praze</strong><br>
+							V rámci studia na Policejní akademii ČR v Praze jsem studoval, mimo jiné, Základy teorie a praxe krizového řízení, Soudní psychologii nebo ku příkladu Kriminalistickou taktiku a metodiku.
+						</li>
+						<li>
+							👉 <strong>Trénink u Gary Noesnera</strong><br>
+							Gary Noesner je bývalý šéf jednotky krizového vyjednávání FBI ((Chief of the FBI’s Crisis Negotiation Unit)) a vyučující na FBI Academy. V roce 2023 jsem jeden z pouhých 12 lidí v ČR, kteří tento privátní, neveřejný trénink absolvovali.
+						</li>
+						<li>
+							👉 <strong>Workshopy - Phil Andrew &amp; Scott Tillema</strong><br>
+							Phil Andrew - special agent FBI, Scott Tillema - SWAT Chicago. Praktické workshopy obou Američanů mě naučily na konkrétních případech jak přesně používat techniky, taktiky a strategie k úspěšnému dosažení dohody.
+						</li>
+						<li>
+							👉 <strong>Mastery club Praha</strong><br>
+							V letech 2022 - 2023 jsem se pravidelně se účastnil a v roce 2023 také vedl vyjednávací tréninky v Mastery clubu Praha v prostorách, kde psal Václav Havel
+						</li>
+						<li>
+							👉 <strong>NegotiCON 2023</strong><br>
+							V roce 2023 jsem se zúčastnil konference o vyjednávání a komunikaci NegotiCON 2023, kde jsem byl součástí pořádajícího týmu.
+						</li>
+						<li>
+							👉 <strong>Praxe policisty</strong><br>
+							V letech 2005 - 2022 jsem byl policistou - od ulice po pozici komisaře - vyšetřovatele na 1. oddělení obecné kriminality, díky čemuž tíhnu ke komunikačním a vyjednávacím metodám americké FBI. Večer 20.12.2011 jsem poprvé použil krizovou komunikaci, když šlo o lidský život - úspěšně. Téměř 10 let jsem byl členem pořádkové jednotky, tzv. "těžkooděnec" Boxer 201.
+						</li>
+						<li>
+							👉 <strong>Vyjednávání s politiky</strong><br>
+							V rámci náročných vyjednávání jsem v letech 2016 - 2022 jednal s budoucím prezidentem ČR gen. Petrem Pavlem, s premiéry Bohuslavem Sobotkou nebo Andrejem Babišem a dále pak s ministry Milanem Chovancem, Janem Hamáčkem, Vítem Rakušanem nebo Alenou Schillerovou
+						</li>
+						<li>
+							👉 <strong>Přednášky a workshopy pro studenty SŠ a VŠ</strong><br>
+							Přednášel jsem pro studenty Vysoké školy ekonomické v Praze; vedl jsem výuku pro studenty Pražského humanitního gymnázia; vedl jsem workshopy vyjednávání pro fiktivní firmy na Obchodní akademii Ústí nad Labem nebo Střední škole diplomacie a veřejné správy
+						</li>
+						<li>
+							👉 <strong>Odborná konzultace ke knize "Konečná zastávka"</strong><br>
+							Spolupodílel jsem se, vnesením odborného vhledu a expertní perspektivy, na knize "Konečná zastávka", která vyšla 18.05.2022.
+						</li>
+					</ul>
+				</div>
+				<div class="w3-half gallery w3-card">
+					<div class="w3-row">
+						<img src="img/garyNoesner.webp" class="w3-hover-opacity w3-image w3-half" alt="Workshop s Philem Andrew (FBI agent)">
+						<img src="img/negotiCON.webp" class="w3-hover-opacity w3-image w3-half" alt="Předání certifikátu z rukou Garyho Noesnera (zakladatel CNU FBI)">
+					</div>
+
+					<div class="w3-padding-row">
+						<img src="img/certifikatGary.webp" class="w3-hover-opacity w3-image w3-half" alt="Certifikát Gary NOESNER">
+						<img src="img/certifikatNegoticon.webp" class="w3-hover-opacity w3-image w3-half" alt="Certifikát NegotiCon">
+					</div>
+				</div>
+			</div>
+
+			<div>
+				<h4 class="w3-center w3-padding-32"> <span class="fa fa-handshake-o"></span> SPOLUPRÁCE</h4>
+				<div class="container">
+					<div class="intern partnerLogo w3-hover-opacity ">
+						<a href="https://sebacademy.cz/workshop-komunikacnich-a-vyjednavacich-dovednosti/" target="_blank">
+							<img src="img/sebaLogo.webp" alt="Logo: SEBA academy">
+							<p>SEBA academy</p>
+						</a>
+					</div>
+
+					<div class="intern partnerLogo w3-hover-opacity ">
+						<a href="https://www.trelleborg.com/cs-cz/seals" target="_blank">
+							<img src="img/trelleborgLogo.webp" alt="Logo: Trelleborg">
+							<p>Trelleborg</p>
+						</a>
+					</div>
+
+					<div class="intern partnerLogo w3-hover-opacity ">
+						<a href="https://www.accenture.com/cz-en/about/company/czech-republic" target="_blank">
+							<img src="img/accLogo.webp" alt="Logo: Accenture">
+							<p>Accenture</p>
+						</a>
+					</div>
+
+					<div class="intern partnerLogo w3-hover-opacity ">
+						<a href="https://icuk.cz" target="_blank">
+							<img src="img/icukLogo.webp" alt="Logo: Inovační centrum Ústeckého kraje">
+							<p>Inovační centrum Ústeckého kraje</p>
+						</a>
+					</div>
+
+					<div class="intern partnerLogo w3-hover-opacity ">
+						<a href="https://acfe.cz" target="_blank">
+							<img src="img/acfeLogo.webp" alt="Logo: Asociace certf. vyšetřovatelů podvodů">
+							<p>Asociace certf. vyšetřovatelů podvodů</p>
+						</a>
+					</div>
+
+					<div class="intern partnerLogo w3-hover-opacity ">
+						<a href="http://www.rwacademy.cz" target="_blank">
+							<img src="img/rwAcademyLogo.webp" alt="Logo: Robocop warrior academy">
+							<p>Robocop warrior academy</p>
+						</a>
+					</div>
+
+					<div class="intern partnerLogo w3-hover-opacity ">
+						<a href="https://www.vse.cz" target="_blank">
+							<img src="img/vseLogo.webp" alt="Logo: Vysoká škola ekonomická">
+							<p>Vysoká škola ekonomická</p>
+						</a>
+					</div>
+
+					<div class="intern partnerLogo w3-hover-opacity ">
+						<a href="https://phgymnazium.cz" target="_blank">
+							<img src="img/phgLogo.webp" alt="Logo: Pražské humanitní gymnázium">
+							<p>Pražské humanitní gymnázium</p>
+						</a>
+					</div>
+
+					<div class="intern partnerLogo w3-hover-opacity ">
+						<a href="https://www.oaulpar.cz/oaulpar/" target="_blank">
+							<img src="img/oaulLogo.webp" alt="Logo: Obchodní akademie - fiktvní firmy">
+							<p>Obchodní akademie - fiktivní firmy</p>
+						</a>
+					</div>
+
+					<div class="intern partnerLogo w3-hover-opacity ">
+						<a href="https://www.ssdvs.cz/cz/o-skole/rozcestnik/" target="_blank">
+							<img src="img/ssdvsLogo.webp" alt="Logo: Střední škola diplomacie a VS, s. r. o.">
+							<p>Střední škola diplomacie a VS, s. r. o.</p>
+						</a>
+					</div>
+
+					<div class="intern partnerLogo w3-hover-opacity ">
+						<a href="https://knightfrankprostory.cz/" target="_blank">
+							<img src="img/logoKnightfrank.webp" alt="Logo: ">
+							<p> Vyhledávač nemovitostí…</p>
+						</a>
+					</div>
+				</div>
+
+			</div>
+
+			<div class="w3-padding-24">
+				<h4 class="w3-center w3-xlarge"><span class="fa fa-thumbs-up"></span> Reference</h4>
+
+				<div class="references">
+					<div class="w3-container w3-cell ">
+						<img src="img/nikolRuzickova.webp" class="w3-circle">
+					</div>
+					<div class="w3-container w3-cell ">
+						<p class="w3-large"><span class="name">Nikol Růžičková</span> - realitní investorka</p>
+						<p>
+							Jsem realitní investorka a měla jsem tu čest absolvovat mentoring pod vedením Zdeňka Drexlera. Musím říct, že jeho přístup mě ohromil. Jeho hluboké znalosti, profesionální zkušenosti a schopnost přizpůsobit se individuálním potřebám mě posunuly na zcela novou úroveň.
+						</p>
+						<p>
+							Zdeněk je nejen odborník na vyjednávání, ale také skvělý mentor, který dokáže jasně vysvětlit strategie a procesy. Díky jeho radám jsem výrazně zlepšila své dovednosti v oblasti komunikace, analýzy obchodních příležitostí a uzavírání výhodných dohod.
+						</p>
+
+						<p>
+							Co oceňuji nejvíce, je jeho pragmatický a zároveň lidský přístup. Umí motivovat, ale také nastavit realistická očekávání, což je v realitním byznysu klíčové. Výsledky na sebe nenechaly dlouho čekat – jeho strategie mi pomohly uzavřít několik velmi úspěšných transakcí.
+						</p>
+
+						<p>
+							Pokud hledáte někoho, kdo vám pomůže posunout váš byznys nebo vyjednávací schopnosti na novou úroveň, Zdeněk Drexler je jasná volba. Jeho mentoring vnímám jako jednu z nejlepších investic, jakou jsem kdy udělala.
+						</p>
+
+						<p>
+							Děkuji, Zdeňku, za vaši podporu a cenné rady!
+						</p>
+					</div>
+				</div>
+
+				<div class="references">
+					<div class="w3-container w3-cell ">
+						<img src="img/veronikaCanova.webp" class="w3-circle">
+					</div>
+					<div class="w3-container w3-cell ">
+						<p class="w3-large"><span class="name">Veronika Čánová</span> - Senior auditor, Komerční banka</p>
+						<p>
+							Potkala jsem Zdeňka na Mastery Clubu při trénincích vyjednávání, kde mě zaujal svým nadhledem, příjemným a nenásilným vedením skupiny.
+							A také tím, že nejenže učí aktivní naslouchání, on ho dokonce i umí. Navic jsem se dozvěděla, že máme společné téma - vyšetřování podvodů.
+							Pozvala jsem ho tedy, aby pro Czech ACFE Chapter vedl spolu s Jan Mexo Řehákem Fraud talk na téma Vyjednávání a forenzní vyšetřování.
+							Fraud talk vzbudil velký zájem a byl opravdu inspirativní. Zdeňkův příspěvek byl dobře připravený, strukturovaný a postavený na jeho zkušenostech z práce u PČR.
+							Spolupráce se Zdeňkem byla skvělá a doufám, že si ji zopakuji.
+						</p>
+					</div>
+				</div>
+
+				<div class="references">
+					<div class="w3-container w3-cell ">
+						<img src="img/gabrielaTvrdikova.webp" class="w3-circle">
+					</div>
+					<div class="w3-container w3-cell">
+						<p class="w3-large"><span class="name">Gabriela Tvrdíková</span> - Senior Manager - AI &amp; Data Deloitte; Chairman - Czech ACFE Chapter</p>
+						<p>
+							Moc děkujeme za podnětný seminář a sdílení cenných zkušeností. Byla to super akce, na kterou rádi navážeme, těšíme
+							se na spolupráci.
+						</p>
+					</div>
+				</div>
+
+				<div class="references">
+					<div class="w3-container w3-cell ">
+						<img src="img/denisTurecek.webp" class="w3-circle">
+					</div>
+					<div class="w3-container w3-cell">
+						<p class="w3-large"><span class="name">Denis Tureček</span> - Strategický poradce pro komunikaci</p>
+						<p>
+							Se Zdeňkem spolupracuji už více než rok a za tu dobu jsem se od něj naučil mnohé. Zkušenosti z mnohdy náročných,
+							až nereálných situací u Policie totiž jen tak někde nenajdete. Je trpělivý, pečlivý a důkladný. Během vyjednávání dokáže
+							efektivně držet linku, jít k dohodě a nenechá se rozhodit. A já se snažil na trénincích MasteryClubu opravdu hodně. Z pozice
+							commandera, vedoucího vyjednávání, umí krásně vymezit prostor, řídit celý průběh a využívat synergie, kterou tým vytváří.
+							Jeho projev je kultivovaný a pevný. Zdeněk je právě ten vyjednavač, který s úsměvem na tváři a pochopením v očích projde
+							hořící budovou plnou ozbrojených skupin právě pro to, aby se domluvil na kvalitní dohodě. Zdeněk je právě ten vyjednavač,
+							od kterého se chcete učit nebo se jím nechat zastupovat.
+						</p>
+					</div>
+				</div>
+
+				<div class="references">
+					<div class="w3-container w3-cell ">
+						<img src="img/tomasBurda.webp" class="w3-circle">
+					</div>
+					<div class="w3-container w3-cell">
+						<p class="w3-large"><span class="name">Tomáš Burda</span> - Sales director</p>
+						<p>
+							Zdeňkovy postupy při vyjednávání jsou specifické, precizní a disciplinované. Bývalého kriminalistu Zdeněk v sobě nezapře.
+							Stejně tak specifické jsou Zdeňkovy tréninky vyjednávání, které můžete navštěvovat každou druhou středu v Mastery Clubu v Praze.
+							Zdeňka jsem zažil v plné parádě včera 23.05.2023 na 1. květnovém Fraud talku, který pořádala česká odnož mezinárodní Asociace
+							certifikovaných forenzních auditorů pro své členy. Musím dodat, že kombinace Zdeňkovy odbornosti bývalého kriminalisty a
+							vyjednavače byla pro všechny přítomné auditory velkým přínosem.
+						</p>
+					</div>
+				</div>
+
+				<div class="references">
+					<div class="w3-container w3-cell ">
+						<img src="img/janMexoRehak.webp" class="w3-circle">
+					</div>
+					<div class="w3-container w3-cell">
+						<p class="w3-large"><span class="name">Jan Mexo Řehák</span> - Profesionální vyjednavač, instruktor vyjednávání, zakladatel NegotiCONu</p>
+						<p>
+							Po celém světě patří lidé od policie k těm nejlepším (nejen krizovým) vyjednávačům. Zdeněk není výjimka.
+							Oproti "běžnému policistovi", který se často potkává hlavně s krizovým vyjednáváním, poznal a zažil
+							vyjednávání i z druhé části spektra: na úrovni kolektivní a politické – u odborů záchranných složek.
+							Zažil jsem ho vyjednávat v různých situacích, a jeho klid, focus a leadership dosahují mistrovské úrovně.
+							Rozhodně patří k nejlepším vyjednávačům v ČR.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+	<section class="w3-container" id="contact">
+		<h3 class="w3-center w3-padding-16"><span class="fa fa-address-card-o"></span> KONTAKT</h3>
+		<div class="w3-row-padding">
+			<div class="w3-half w3-large w3-right">
+				<div class="w3-padding"><span class="fa fa-phone fa-fw w3-margin-right"></span><strong>Telefon:</strong> <a href="tel:{{fullPhone}}"> {{phone}}</a></div>
+				<div class="w3-padding"><span class="fa fa-envelope fa-fw w3-margin-right"> </span><strong>Email:</strong><a href="mailto:{{email}}"> {{email}}</a></div>
+
+				<div class="w3-padding">
+					<span class="fa fa-map-marker fa-fw w3-margin-right"></span>
+					<strong>Fakturační údaje:</strong>
+					<address>
+						Zdeněk Drexler <br>
+						Albrechtická 570/14<br>
+						434 01 Most<br>
+					</address>
+					<span class="fa fas fa-bullseye fa-fw"> </span> <strong>IČO:</strong> {{ico}}<br>
+					<span class="fa fas fa-bullseye fa-fw"> </span> <strong>DIČ:</strong> CZ8005262771
+					<p>Nejsem plátce DPH.</p>
+				</div>
+			</div>
+			<div class="w3-half gallery">
+				<img src="img/portret2.webp" class="w3-hover-opacity w3-image w3-round contactPhoto" alt="{{altPortret}}">
+			</div>
+		</div>
+	</section>
+
+	<footer class="w3-center w3-padding-32">
+		<img src="img/logoVelke.webp" alt="Logo" class="w3-image">
+
+		<div class="w3-padding-24">
+			<div class="w3-xxxlarge w3-section contactButtons">
+				<a href="tel:{{fullPhone}}"><span class="fa fa-phone"></span></a>
+				<a href="{{facebook}}"><span class="fa fa-facebook"></span></a>
+				<a href="{{instagram}}"><span class="fa fa-instagram"></span></a>
+				<a href="{{linkedin}}"><span class="fa fa-linkedin"></span></a>
+				<a href="mailto:{{email}}"><span class="fa fa-envelope"></span></a>
+			</div>
+
+			<a href="#home" class="w3-button button"><span class="fa fa-arrow-up w3-margin-right"></span>Zpět na začátek</a>
+			<div class="w3-padding-24">
+				<a href="https://sec.stanislav.eu" rel="nofollow" target="_blank">{{year}} | Ing. Stanislav Šec</a>
+				<img src="https://tracker.stanislav.eu/track.php?site={{domain}}" class="w3-hide" alt="Visitor Tracking">
+			</div>
+		</div>
+	</footer>
+
+	<div id="modal" class="w3-modal">
+		<span class="w3-button w3-xlarge w3-padding-large w3-display-topright" title="Zavřít okno"><span class="fa fa-close w3-right"></span></span>
+		<div class="w3-modal-content w3-animate-zoom w3-center w3-transparent">
+			<img id="modalImage" class="w3-image w3-card" alt="popisek">
+			<p id="caption" class="w3-large"></p>
+		</div>
+	</div>
+
+	<div id="modalMore" class="w3-modal">
+		<span class="w3-button w3-xlarge w3-padding-large w3-display-topright" title="Zavřít okno"><span class="fa fa-close w3-right"></span></span>
+		<div class="w3-modal-content w3-animate-zoom w3-center w3-transparent" id="modalMoreContent">
+		</div>
+	</div>
+</body>
+
+</html>

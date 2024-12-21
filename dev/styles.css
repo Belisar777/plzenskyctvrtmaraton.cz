@@ -1,0 +1,284 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: "Raleway", sans-serif;
+}
+
+.name,
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: bold;
+	color: #a10000;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+	font-size: 5.5vw;
+}
+
+h2 {
+	font-size: 3.75vw;
+}
+
+body,
+html {
+	height: 100%;
+	line-height: 1.9;
+	font-size: 19px;
+	color: #302c2c;
+}
+
+section.w3-container {
+	padding: 60px 30px;
+}
+
+section.w3-container .header {
+	font-weight: bold;
+	font-size: 120%;
+}
+
+address {
+	font-style: normal;
+	margin-left: 45px;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #aecff1;
+}
+
+#home {
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: url("./img/portret.webp");
+	min-height: 100%;
+}
+
+#home .contactButtons {
+	color: #a10000;
+}
+
+#myNavbar,
+#mySidebar,
+footer {
+	background-color: black;
+	color: white;
+}
+
+footer img {
+	padding: 1em;
+}
+
+.gallery img {
+	cursor: pointer;
+}
+
+.contactButtons a:hover {
+	color: #aecff1;
+}
+
+.contactButtons a {
+	text-indent: 5px;
+}
+
+.w3-bar .w3-button {
+	padding: 16px;
+}
+
+
+#mySidebar {
+	display: none;
+}
+
+header>div {
+	padding: 0 2vw;
+}
+
+.bigTitle {
+	width: 60%;
+	top: 35%
+}
+
+.references img {
+	width: 60%;
+	padding: 25px 0px;
+}
+
+#myOverlay {
+	display: none;
+}
+
+#mySidebar {
+	z-index: 3;
+}
+
+section:nth-of-type(even) .w3-card,
+section:nth-of-type(odd) {
+	background-color: black;
+	color: #CCCCCC;
+}
+
+section:nth-of-type(odd) .w3-card,
+section:nth-of-type(even) {
+	background-color: white;
+	color: #302c2c;
+}
+
+#myNavbar .w3-bar-item.padding-0 {
+	padding: 0px;
+}
+
+#myNavbar .logo {
+	padding-left: 10px;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+}
+
+.flex-center {
+	flex-grow: 1;
+}
+
+.flex-center a {
+	text-indent: 1em;
+}
+
+.contactPhoto {
+	max-height: 320px;
+	float: right;
+}
+
+header,
+footer,
+section {
+	border-top: 1px dashed #aecff1;
+}
+
+.w3-button.button {
+	background-color: #a10000;
+	color: white;
+	letter-spacing: 4px;
+}
+
+.w3-button:hover {
+	background-color: #aecff1 !important;
+	color: #302c2c !important;
+}
+
+#work h4 {
+	text-align: center;
+}
+
+
+
+.intern {
+	display: flex;
+	flex: 1;
+	padding: 10px 10px;
+	flex-direction: column;
+	line-height: 1.4;
+}
+
+.intern .centerAndEnd {
+	margin-top: auto;
+	text-align: center;
+}
+
+.intern .centerAndEnd button {
+	display: inline-block;
+}
+
+.intern.partnerLogo {
+	padding: 0px;
+	text-align: center;
+	background-color: white;
+	color: #302c2c;
+}
+
+.intern.partnerLogo a:hover {
+	color: #302c2c;
+}
+
+.intern.partnerLogo img {
+	width: 275px;
+}
+
+#modalImage {
+	max-height: 88vh;
+}
+
+.w3-modal .w3-button {
+	z-index: 1000;
+}
+
+.w3-modal {
+	padding-top: 25px;
+	background-color: white;
+}
+
+.hiddenContent {
+	display: none;
+}
+
+.w3-ul li {
+	border: none;
+	padding-bottom: 1em;
+}
+
+@media (min-width:950px) {
+	.w3-modal-content {
+		width: 94vw;
+	}
+}
+
+@media (max-width:599px) {
+	.references .w3-cell {
+		display: block;
+		text-align: center;
+	}
+
+	.w3-card {
+		margin-bottom: 1em;
+	}
+
+	.container .intern,
+	.w3-row img {
+		border-bottom: 1px dashed #aecff1;
+	}
+}
+
+@media (min-width:600px) {
+	.container {
+		display: flex;
+		align-items: stretch;
+		gap: 1em;
+		flex-wrap: wrap;
+	}
+
+	.references img {
+		width: 175px;
+	}
+
+	.references .w3-cell {
+		text-align: left;
+	}
+}
