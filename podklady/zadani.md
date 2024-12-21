@@ -8,6 +8,7 @@ po běhu místo, kde se uvedou výsledky
 případně to může být všechno nějak pod sebou, to nechám na tobě tu strukturu
 
 
+
 Web domena: plzenskyctvrtmaraton.cz
 Datum běhu: sobota 26.4.2024
 Lokace: Božkovský ostrov – start a cíl, trasa směrem do Koterova po cyklostezce a zpět

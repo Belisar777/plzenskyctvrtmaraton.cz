@@ -1,7 +1,7 @@
 {
 	"name": "plzenskyctvrtmaraton.cz",
 	"version": "1.0.10",
-	"description": "Stránky o Plzeňském Čtvrtmaratonu",
+	"description": "Stránky o Plzeňském Čtvrtmaratonu který se bude konat 26.4.2024",
 	"main": "dev/index.html",
 	"scripts": {
 		"clean": "rm -rf dist",

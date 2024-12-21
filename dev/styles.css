@@ -1,3 +1,9 @@
+:root {
+	--primary-color: #203d69;
+	--secondary-color: #df0f1f;
+}
+
+
 body,
 h1,
 h2,
@@ -14,7 +20,7 @@ h3,
 h4,
 h5 {
 	font-weight: bold;
-	color: #a10000;
+	color: var(--primary-color);
 }
 
 h1,
@@ -25,11 +31,11 @@ h4 {
 }
 
 h1 {
-	font-size: 5.5vw;
+	font-size: 38px;
 }
 
 h2 {
-	font-size: 3.75vw;
+	font-size: 30px;
 }
 
 body,
@@ -67,12 +73,12 @@ a:hover {
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-image: url("./img/portret.webp");
+	background-image: url("./img/ilustraceHlavicka.webp");
 	min-height: 100%;
 }
 
 #home .contactButtons {
-	color: #a10000;
+	color: var(--primary-color);
 }
 
 #myNavbar,
@@ -113,7 +119,7 @@ header>div {
 
 .bigTitle {
 	width: 60%;
-	top: 35%
+	top: 30%
 }
 
 .references img {
@@ -174,7 +180,7 @@ section {
 }
 
 .w3-button.button {
-	background-color: #a10000;
+	background-color: var(--primary-color);
 	color: white;
 	letter-spacing: 4px;
 }
@@ -184,7 +190,7 @@ section {
 	color: #302c2c !important;
 }
 
-#work h4 {
+#news h4 {
 	text-align: center;
 }
 
