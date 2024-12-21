@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="cs">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tlačítko na konci</title>
+  <style>
+    .container {
+      display: flex;
+      gap: 20px;
+    }
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      width: 200px;
+      height: 300px;
+      border: 1px solid #ccc;
+      padding: 10px;
+    }
+
+    .box p {
+      margin: 0 0 10px;
+    }
+
+    .box button {
+      margin-top: auto;
+      align-self: center;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <div class="box">
+      <p>Nějaký obsah v prvním boxu.</p>
+      <button>Tlačítko</button>
+    </div>
+    <div class="box">
+      <p>Delší obsah v druhém boxu, který zabírá více místa a tlačítko se posune dolů.</p>
+      <button>Tlačítko</button>
+    </div>
+    <div class="box">
+      <p>Krátký obsah.</p>
+      <button>Tlačítko</button>
+    </div>
