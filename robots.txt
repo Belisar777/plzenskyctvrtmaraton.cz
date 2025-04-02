@@ -3,5 +3,3 @@ Allow: /
 Disallow:
 
 Sitemap: https://plzenskyctvrtmaraton.cz/sitemap.xml
-
-
